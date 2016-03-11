@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".question"
+    android:background="#030000">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Answer  the questions to display the location of Module"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="21dp" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Check Answer"
+        android:id="@+id/chkans"
+        android:textColor="#232381"
+        android:textSize="15dp"
+        android:layout_below="@+id/rg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/ques"
+        android:id="@+id/ques"
+        android:textColor="@color/bright_foreground_material_dark"
+        android:textSize="22dp"
+        android:clickable="true"
+        android:gravity="left"
+        android:layout_above="@+id/rg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/rg"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/op1"
+            android:id="@+id/op1"
+            android:layout_below="@+id/ques"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="42dp"
+            android:textColor="@color/bright_foreground_material_dark"
+            android:button="@android:drawable/btn_radio"
+            android:buttonTint="#47479a"
+            android:enabled="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/op2"
+            android:id="@+id/op2"
+            android:layout_below="@+id/op1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false"
+            android:textColor="@color/bright_foreground_material_dark"
+            android:button="@android:drawable/btn_radio"
+            android:buttonTint="#47479a" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/op3"
+            android:id="@+id/op3"
+            android:layout_below="@+id/op2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false"
+            android:textColor="@color/bright_foreground_material_dark"
+            android:button="@android:drawable/btn_radio"
+            android:buttonTint="#47479a" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/op4"
+            android:id="@+id/op4"
+            android:layout_below="@+id/op3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false"
+            android:textColor="@color/bright_foreground_material_dark"
+            android:button="@android:drawable/btn_radio"
+            android:buttonTint="#47479a" />
+
+    </RadioGroup>
+
+</RelativeLayout>

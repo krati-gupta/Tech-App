@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ara-Hunt</string>
+    <string name="groupno">Group No-</string>
+    <string name="starthunting">START HUNTING</string>
+    <string name="ques">question00</string>
+    <string name="op1">0</string>
+    <string name="op2">0</string>
+    <string name="op3">0</string>
+    <string name="op4">0</string>
+    <string name="code">Enter ModuleCode</string>
+    <integer name="qn">1</integer>
+    <string name="instr1">1. 10 Modules are hidden in college campus, you have to find them and attach them on the Cartilage appropriately to Win the game.</string>
+    <string name="instr2">2. You have to Answer multiple choice questions(MCQs) correctly to get the locations of each Module in 30 Seconds.</string>
+  <string name="instr3">3. On every Wrong Answer 1 question is skipped and you will miss 2 Modules(1 of the wrong answer and 1 of skipped question).</string>
+  <string name="instr4">4. Every Module has its Unique Code and you have to enter this code to unlock next Question.</string>
+  <string name="instr5">5. The Team with Maximum or all Modules Attached properly in Minimum time will Win this Hunt.</string>
+</resources>
