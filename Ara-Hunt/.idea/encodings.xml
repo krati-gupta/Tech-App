@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/BarcodeFormat.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/Binarizer.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/BinaryBitmap.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/ChecksumException.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/DecodeHintType.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/Dimension.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/EncodeHintType.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/FormatException.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/InvertedLuminanceSource.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/LuminanceSource.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/MultiFormatReader.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/MultiFormatWriter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/NotFoundException.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/PlanarYUVLuminanceSource.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/RGBLuminanceSource.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/Reader.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/ReaderException.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/Result.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/ResultMetadataType.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/ResultPoint.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/ResultPointCallback.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/Writer.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/WriterException.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/aztec" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/client" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/common" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/datamatrix" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/maxicode" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/multi" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/oned" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/pdf417" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/google/zxing/qrcode" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

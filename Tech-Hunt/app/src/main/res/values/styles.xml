@@ -1,9 +1,0 @@
-<resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.WithActionBar"/>
-    <style name="full" parent="android:Theme.NoTitleBar"/>
-    <!-- Customize your theme here. -->
-
-
-</resources>

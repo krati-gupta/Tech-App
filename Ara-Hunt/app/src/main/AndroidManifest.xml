@@ -1,0 +1,59 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="techtalk.ara_hunt">
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".front"  android:theme="@style/full"  android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".instr" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".question" android:theme="@style/AppTheme"  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".QKActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map2" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map3" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map4" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map5" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map6" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map7" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map8" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map9" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map10" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".map11" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".thnku" android:theme="@style/AppTheme" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+
+
+    </application>
+
+</manifest>
