@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class thnku extends Activity {
     private TextView nc;
     private TextView gr;
-
+    String srt;
     String grp;
     int ncd;
 
@@ -36,7 +36,29 @@ public class thnku extends Activity {
         setContentView(R.layout.thanku);
         nc = (TextView) findViewById(R.id.textView);
         gr = (TextView) findViewById(R.id.textView6);
-        nc.setText("No Of Correct Codes Entered "+ncd);
-        gr.setText("Group no- "+grp);
+        switch(grp)
+        {
+            case "1" : srt="Team Steve Jobs";
+                break;
+            case  "2" : srt="Team Berners-Lee";
+                break;
+            case  "3" : srt="Team Gates";
+                break;
+            case  "4" : srt="Team Gosling";
+                break;
+            case  "5" : srt="Team Linus";
+                break;
+            case  "6" : srt="Team Stallman";
+                break;
+            case  "7" : srt="Team Sergey";
+                break;
+            case  "8" : srt="Team Codd";
+                break;
+            case  "9" : srt="Team Larry page";
+                break;
+            case  "10" : srt="Team Elon Musk";
+        }
+        nc.setText("No Of Correct Codes Scanned "+ncd);
+        gr.setText("Team - "+srt);
     }
 }

@@ -26,7 +26,8 @@
   <color name="transparent">#00000000</color>
   <color name="viewfinder_mask">#60000000</color>
    <color name="pressed2">#385cf8</color>
-    <color name="colorPrimary">#aa66cc</color>
+    <color name="colorPrimary">#385cf1</color>
     <color name="pressed">#aa44cc</color>
     <color name="pressed1">#ffffff</color>
+    <color name="tim">@android:color/holo_red_light</color>
 </resources>

@@ -2,70 +2,93 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent" android:layout_height="fill_parent"
-    android:background="@color/bright_foreground_material_dark"
-    tools:context=".Main">
+    tools:context=".Main" android:background="@drawable/sp1"
+    android:backgroundTintMode="multiply"
+    android:backgroundTint="#494646">
 
-  <!-- <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+   <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:src="@mipmap/back1"
+        android:src="@mipmap/ic_launcher"
         android:layout_alignParentEnd="true"
-       android:layout_alignParentRight="true"/>-->
+       android:layout_alignParentRight="true"
+       android:layout_marginTop="40dp"/>
 
     <Spinner
-       android:layout_width="170dp"
-       android:layout_height="50dp"
+       android:layout_width="wrap_content"
+       android:layout_height="45dp"
        android:id="@+id/spn"
        android:gravity="center"
-       android:background="#00ffffff"
-        android:layout_marginBottom="44dp"
-        android:layout_above="@+id/strt"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignBottom="@+id/strt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:spinnerMode="dialog"
+        style="@android:style/Widget.Spinner"
+        android:dropDownWidth="wrap_content"
+        />
 
     <Button
-        android:layout_width="150dp"
+        android:layout_width="180dp"
         android:layout_height="40dp"
-        android:text="@string/starthunting"
+        android:text="@string/starthunt"
         android:id="@+id/strt"
         android:typeface="sans"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:background="@drawable/btnst"
-        android:layout_centerInParent="true"
+        android:background="@drawable/selector"
+        android:layout_marginTop="380dp"
         android:gravity="center"
         android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/tool"
+        android:drawableLeft="@drawable/tool"
+        android:drawableRight="@drawable/people1"
+        android:drawableEnd="@drawable/people1"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="©TECHTALK"
-        android:textColor="#385cf8"
+        android:text="@string/co"
+        android:textColor="@android:color/white"
         android:id="@+id/textView4"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/strt"
         android:textSize="@dimen/abc_text_size_small_material"
-        android:layout_toRightOf="@+id/strt" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:singleLine="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WELCOME  TO  ARA-HUNT"
+        android:text="WELCOME TO ARA-HUNT"
         android:id="@+id/textView3"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:gravity="center"
-        android:textColor="#385cf8"
+        android:textColor="@android:color/white"
         android:textSize="25dp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold"
+        android:layout_marginTop="240dp"
+        android:typeface="monospace" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strt"
+        android:id="@+id/abtv"
+        android:text="About"
+        android:typeface="monospace"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:inputType="none" />
+
+
 </RelativeLayout>
