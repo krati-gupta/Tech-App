@@ -18,7 +18,7 @@
        android:layout_alignParentRight="true"
        android:layout_marginTop="40dp"/>
 
-    <Spinner
+    <!--<Spinner
        android:layout_width="wrap_content"
        android:layout_height="45dp"
        android:id="@+id/spn"
@@ -29,7 +29,21 @@
         android:spinnerMode="dialog"
         style="@android:style/Widget.Spinner"
         android:dropDownWidth="wrap_content"
-        />
+        />-->
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/strt"
+        android:layout_marginBottom="60dp"
+        android:text="Scan Endoskeleton QR"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/selector"
+        android:id="@+id/scend"
+        android:drawableStart="@drawable/technology"
+        android:drawableLeft="@drawable/technology"/>
 
     <Button
         android:layout_width="180dp"
@@ -48,19 +62,6 @@
         android:drawableRight="@drawable/people1"
         android:drawableEnd="@drawable/people1"
         />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="@string/co"
-        android:textColor="@android:color/white"
-        android:id="@+id/textView4"
-        android:layout_alignParentBottom="true"
-        android:textSize="@dimen/abc_text_size_small_material"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:singleLine="true" />
 
     <TextView
         android:layout_width="wrap_content"

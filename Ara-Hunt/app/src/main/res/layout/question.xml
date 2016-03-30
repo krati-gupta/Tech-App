@@ -49,7 +49,7 @@
         android:background="@drawable/select2"
         android:textStyle="bold"
         android:layout_below="@+id/ques"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
         android:padding="10dp"/>
     <Button

@@ -39,7 +39,7 @@
         android:layout_marginBottom="2dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:lines="3"
+        android:lines="4"
         android:text="@string/instr1"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -90,7 +90,7 @@
         android:paddingRight="4dp"
         android:textStyle="bold" />
 
-    <TextView
+    <!--<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/instr5"
@@ -101,7 +101,7 @@
         android:textSize="15sp"
         android:paddingLeft="4dp"
         android:paddingRight="4dp"
-        android:textStyle="bold" />
+        android:textStyle="bold" />-->
 
             <Button
         android:layout_width="wrap_content"
@@ -109,7 +109,7 @@
         android:text="PLAY"
         android:id="@+id/btn"
         android:layout_marginTop="26dp"
-        android:layout_below="@+id/textView12"
+        android:layout_below="@+id/textView11"
         android:textSize="18sp"
         android:background="@drawable/select2"
         android:textColor="@android:color/white"

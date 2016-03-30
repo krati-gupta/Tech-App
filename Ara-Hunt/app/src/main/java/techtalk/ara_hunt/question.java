@@ -24,7 +24,7 @@ public class question extends Activity {
     private TextView time;
     String grp;
     int qn;
-    int ncd;
+   static int ncd;
     long remti;
     CountDownTimer t;
 

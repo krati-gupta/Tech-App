@@ -59,6 +59,6 @@ public class thnku extends Activity {
             case  "10" : srt="Team Elon Musk";
         }
         nc.setText("No Of Correct Codes Scanned "+ncd);
-        gr.setText("Team - "+srt);
+        gr.setText(srt);
     }
 }

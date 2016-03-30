@@ -25,7 +25,7 @@ public class map extends Activity {
     String grp;
     private ImageButton kb;
     int qn;
-    int ncd;
+   static int ncd;
     String content ="";
   private   String cd;
     @Override
@@ -59,14 +59,13 @@ public class map extends Activity {
         chkcode = (Button) findViewById(R.id.chkcode);
         kb =(ImageButton)findViewById(R.id.imageButton);
         img = (ImageView) findViewById(R.id.imageView2);
-        ncd = 0;
 
         if ((qn == 1 && grp.equals("1")) || (qn == 3 && grp.equals("2")) || (qn == 5 && grp.equals("3")) || (qn == 7 && grp.equals("4")) || (qn == 9 && grp.equals("5")) || (qn == 11 && grp.equals("6")) || (qn == 2 && grp.equals("7")) || (qn == 4 && grp.equals("8")) || (qn == 6 && grp.equals("9")) || (qn == 8 && grp.equals("10"))) {
-            img.setImageResource(R.mipmap.capture12);
+            img.setImageResource(R.mipmap.capture1);
             cd="C13579";
         }
         if ((qn == 2 && grp.equals("1")) || (qn == 11 && grp.equals("2")) || (qn == 4 && grp.equals("3")) || (qn == 6 && grp.equals("4")) || (qn == 8 && grp.equals("5")) || (qn == 10 && grp.equals("6")) || (qn == 3 && grp.equals("7")) || (qn == 5 && grp.equals("8")) || (qn == 7 && grp.equals("9")) || (qn == 9 && grp.equals("10"))) {
-            img.setImageResource(R.mipmap.capture23);
+            img.setImageResource(R.mipmap.capture2);
             cd="W211468";
         }
         if ((qn == 3 && grp.equals("1")) || (qn == 5 && grp.equals("2")) || (qn == 7 && grp.equals("3")) || (qn == 9 && grp.equals("4")) || (qn == 11 && grp.equals("5")) || (qn == 2 && grp.equals("6")) || (qn == 4 && grp.equals("7")) || (qn == 6 && grp.equals("8")) || (qn == 8 && grp.equals("9")) || (qn == 10 && grp.equals("10")))
@@ -148,7 +147,11 @@ public class map extends Activity {
                     int duration = Toast.LENGTH_SHORT;
                     Toast toast = Toast.makeText(context, text, duration);
                     toast.show();
-                    Intent myIntent = new Intent(map.this, question.class);
+                    Intent myIntent;
+                    if(qn==12){
+                         myIntent = new Intent(map.this,thnku.class);
+                    }
+                    else{ myIntent = new Intent(map.this, question.class);}
                     myIntent.putExtra("key", grp);
                     myIntent.putExtra("key1", qn);
                     myIntent.putExtra("key2", ncd);//Optional parameters
