@@ -61,56 +61,56 @@ public class map extends Activity {
         img = (ImageView) findViewById(R.id.imageView2);
 
         if ((qn == 1 && grp.equals("1")) || (qn == 3 && grp.equals("2")) || (qn == 5 && grp.equals("3")) || (qn == 7 && grp.equals("4")) || (qn == 9 && grp.equals("5")) || (qn == 11 && grp.equals("6")) || (qn == 2 && grp.equals("7")) || (qn == 4 && grp.equals("8")) || (qn == 6 && grp.equals("9")) || (qn == 8 && grp.equals("10"))) {
-            img.setImageResource(R.mipmap.capture1);
+            img.setBackgroundResource(R.mipmap.map01);
             cd="C13579";
         }
         if ((qn == 2 && grp.equals("1")) || (qn == 11 && grp.equals("2")) || (qn == 4 && grp.equals("3")) || (qn == 6 && grp.equals("4")) || (qn == 8 && grp.equals("5")) || (qn == 10 && grp.equals("6")) || (qn == 3 && grp.equals("7")) || (qn == 5 && grp.equals("8")) || (qn == 7 && grp.equals("9")) || (qn == 9 && grp.equals("10"))) {
-            img.setImageResource(R.mipmap.capture2);
+            img.setBackgroundResource(R.mipmap.map2);
             cd="W211468";
         }
         if ((qn == 3 && grp.equals("1")) || (qn == 5 && grp.equals("2")) || (qn == 7 && grp.equals("3")) || (qn == 9 && grp.equals("4")) || (qn == 11 && grp.equals("5")) || (qn == 2 && grp.equals("6")) || (qn == 4 && grp.equals("7")) || (qn == 6 && grp.equals("8")) || (qn == 8 && grp.equals("9")) || (qn == 10 && grp.equals("10")))
         {
-            img.setImageResource(R.mipmap.capture34);
+            img.setBackgroundResource(R.mipmap.map3);
             cd="S357911";
         }
         if ((qn == 4 && grp.equals("1")) || (qn == 6 && grp.equals("2")) || (qn == 8 && grp.equals("3")) || (qn == 10 && grp.equals("4")) || (qn == 1 && grp.equals("5")) || (qn == 3 && grp.equals("6")) || (qn == 5 && grp.equals("7")) || (qn == 7 && grp.equals("8")) || (qn == 9 && grp.equals("9")) || (qn == 11 && grp.equals("10")))
         {
-            img.setImageResource(R.mipmap.capture45);
+            img.setBackgroundResource(R.mipmap.map4);
             cd="O468101";
         }
         if ((qn == 5 && grp.equals("1")) || (qn == 7 && grp.equals("2")) || (qn == 9 && grp.equals("3")) || (qn == 11 && grp.equals("4")) || (qn == 2 && grp.equals("5")) || (qn == 4 && grp.equals("6")) || (qn == 6 && grp.equals("7")) || (qn == 8 && grp.equals("8")) || (qn == 10 && grp.equals("9")) || (qn == 3 && grp.equals("10")))
         {
-            img.setImageResource(R.mipmap.capture56);
+            img.setBackgroundResource(R.mipmap.map5);
             cd="B579112";
         }
         if ((qn == 6 && grp.equals("1")) || (qn == 8 && grp.equals("2")) || (qn == 10 && grp.equals("3")) || (qn == 3 && grp.equals("4")) || (qn == 5 && grp.equals("5")) || (qn == 7 && grp.equals("6")) || (qn == 9 && grp.equals("7")) || (qn == 11 && grp.equals("8")) || (qn == 1 && grp.equals("9")) || (qn == 2 && grp.equals("10")))
         {
-            img.setImageResource(R.mipmap.capture23);
+            img.setBackgroundResource(R.mipmap.map6);
             cd="N681035";
         }
         if((qn==7 && grp.equals("1")) || (qn==9 && grp.equals("2")) || (qn==11 && grp.equals("3")) || (qn==2 && grp.equals("4")) || (qn==6 && grp.equals("5")) || (qn==8 && grp.equals("6")) || (qn==10 && grp.equals("7")) || (qn==1 && grp.equals("8")) || (qn==3 && grp.equals("9")) || (qn==5 && grp.equals("10")))
         {
-            img.setImageResource(R.mipmap.capture23);
+            img.setBackgroundResource(R.mipmap.map7);
             cd="G791126";
         }
         if((qn==8 && grp.equals("1")) || (qn==10 && grp.equals("2")) || (qn==3 && grp.equals("3")) || (qn==5 && grp.equals("4")) || (qn==7 && grp.equals("5")) || (qn==9 && grp.equals("6")) || (qn==11 && grp.equals("7")) || (qn==2 && grp.equals("8")) || (qn==4 && grp.equals("9")) || (qn==6 && grp.equals("10")))
         {
-            img.setImageResource(R.mipmap.capture23);
+            img.setBackgroundResource(R.mipmap.map8);
             cd="A810357";
         }
         if((qn==9 && grp.equals("1")) || (qn==2 && grp.equals("2")) || (qn==6 && grp.equals("3")) || (qn==4 && grp.equals("4")) || (qn==10 && grp.equals("5")) || (qn==5 && grp.equals("6")) || (qn==7 && grp.equals("7")) || (qn==9 && grp.equals("8")) || (qn==2 && grp.equals("9")) || (qn==1 && grp.equals("10")))
         {
-            img.setImageResource(R.mipmap.capture23);
+            img.setBackgroundResource(R.mipmap.map9);
             cd="P926410";
         }
         if((qn==10 && grp.equals("1")) || (qn==1 && grp.equals("2")) || (qn==2 && grp.equals("3")) || (qn==8 && grp.equals("4")) || (qn==3 && grp.equals("5")) || (qn==1 && grp.equals("6")) || (qn==8 && grp.equals("7")) || (qn==3 && grp.equals("8")) || (qn==5 && grp.equals("9")) || (qn==4 && grp.equals("10")))
         {
-            img.setImageResource(R.mipmap.capture23);
+            img.setBackgroundResource(R.mipmap.map10);
             cd="F101283";
         }
         if((qn==11 && grp.equals("1")) || (qn==4 && grp.equals("2")) || (qn==1 && grp.equals("3")) || (qn==1 && grp.equals("4")) || (qn==4 && grp.equals("5")) || (qn==6 && grp.equals("6")) || (qn==1 && grp.equals("7")) || (qn==10 && grp.equals("8")) || (qn==11 && grp.equals("9")) || (qn==7 && grp.equals("10")))
         {
-            img.setImageResource(R.mipmap.capture23);
+            img.setBackgroundResource(R.mipmap.map11);
             cd="C114114";
         }
 
@@ -136,7 +136,6 @@ public class map extends Activity {
 
             @Override
             public void onClick(View view) {
-
 
 
                 if (content.equals(cd)) {

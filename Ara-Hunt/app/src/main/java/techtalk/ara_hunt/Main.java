@@ -23,7 +23,7 @@ public class Main extends Activity {
     private Button start;
    // private Spinner sp;
     private Button code;
-    String content;
+    String content ="";
   // private String[] num={"Select Team","Team Steve Jobs","Team Berners-Lee","Team Gates","Team Gosling","Team Linus","Team Stallman","Team Sergey","Team Codd","Team Larry page","Team Elon Musk"};
 
 

@@ -6,8 +6,9 @@ android {
 
     defaultConfig {
         applicationId "techtalk.ara_hunt"
-        minSdkVersion 16
-        targetSdkVersion 22
+        minSdkVersion 11
+        targetSdkVersion 17
+        maxSdkVersion 23
         versionCode 1
         versionName "1.0"
     }
