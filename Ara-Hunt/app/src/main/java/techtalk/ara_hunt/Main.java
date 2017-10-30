@@ -53,6 +53,8 @@ public class Main extends Activity {
             @Override
             public void onClick(View v) {
                 Intent in=new Intent(getApplicationContext(),CaptureActivity.class);
+                var aks;
+                aks = "Hi";
                 startActivityForResult(in, REQUEST_QR_SCAN);
             }
         });
